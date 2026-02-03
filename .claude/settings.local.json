@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh:*)",
+      "mcp__mcp-registry__search_mcp_registry",
+      "Bash(git --version:*)",
+      "Bash(winget install:*)",
+      "Bash(\"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" --version)",
+      "Bash(\"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" auth status)",
+      "Bash(\"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" auth login)",
+      "Bash(\"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" repo list --limit 5)",
+      "Bash(\"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" repo view nicholsbw77/battery-monitoring)",
+      "Bash(ssh:*)",
+      "Bash(scp:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
