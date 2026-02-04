@@ -45,7 +45,7 @@ except ImportError:
 
 SERIAL_PORT = "/dev/ttyUSB0"
 BAUDRATE = 115200
-SLAVE_ID = 0x01  # BMS address (DIP switch 0x00-0x0F)
+SLAVE_ID = 0x00  # BMS address (DIP switch 0x00-0x0F)
 POLL_INTERVAL = 5
 NUM_CELLS = 16
 
